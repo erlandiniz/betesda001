@@ -546,12 +546,13 @@ header > h1 {
 
 #video{
     width: 90%;
-    height: 90vh;
+    height: 60%;
     max-width: 1200px;
+    max-height: 550px;
     margin: 0 auto;
     padding: 20px;
     background: linear-gradient(to right, #203321, #154919,#77997A);
-    border-top-right-radius: 16px ;
+    border-top-right-radius: 16px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
 
@@ -618,7 +619,7 @@ iframe.video_grande {
 iframe.video_pequeno1 {
     position: absolute;
     top: 80px;
-    left: 670px;
+    left: 110vh;
     width: 30%;
     height: 25%;
     border-top-right-radius: 16px ;
@@ -630,7 +631,7 @@ iframe.video_pequeno1 {
 iframe.video_pequeno2 {
     position: absolute;
     top: 80px;
-    left: 900px;
+    left: 148vh;
     width: 30%;
     height: 25%;
     border-top-right-radius: 16px ;
@@ -642,7 +643,7 @@ iframe.video_pequeno2 {
 iframe.video_pequeno3 {
     position: absolute;
     top: 300px;
-    left: 670px;
+    left: 110vh;
     width: 30%;
     height: 25%;
     border-top-right-radius: 16px ;
@@ -656,7 +657,7 @@ iframe.video_pequeno3 {
 iframe.video_pequeno4 {
     position: absolute;
     top: 300px;
-    left: 900px;
+    left: 148vh;
     width: 30%;
     height: 25%;
     border-top-right-radius: 16px ;
