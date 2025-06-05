@@ -492,7 +492,8 @@ header > h1 {
 .destaques-section h2 {
     text-align: center;
     margin-bottom: 3rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    
 }
 
 .grid-colunas {
@@ -562,6 +563,12 @@ header > h1 {
     position: relative;
     width: 60%;
     padding-top: 56.25%; 
+}
+
+.titulo {
+    position: absolute;
+    top: 0;
+    
 }
 
 .titulo2 {
@@ -691,11 +698,7 @@ iframe.video_pequeno4 {
     margin-bottom: 1rem;
 }
 
-.titulo {
-    position: absolute;
-    top: 20px;
-    
-}
+
 
 /* ============ NOTICIAS DIARIAS PAG PRINCIPAL ============ */
 .newsletter-section {
