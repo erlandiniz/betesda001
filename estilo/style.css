@@ -547,8 +547,8 @@ header > h1 {
 #video{
     width: 90%;
     height: 60%;
-    max-width: 1200px;
-    max-height: 550px;
+    max-width: 90%;
+    max-height: 90vh;
     margin: 0 auto;
     padding: 20px;
     background: linear-gradient(to right, #203321, #154919,#77997A);
@@ -1550,13 +1550,13 @@ section#img03 {
     
     .slider {
         margin-top: 50px;
-        height: 70vw;
-        width: 95vw;
+        height: 60vw;
+        width: 100vw;
     }
 
     .slide {
-        height: 70vw;
-        width: 95vw;
+        height: 60vw;
+        width: 100vw;
     }
 
     .slide-btn{
