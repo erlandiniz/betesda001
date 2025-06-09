@@ -10,11 +10,66 @@
 </head>
 <body>
     <header>
-        <div>
-
-    <h2><a href="index.html">inicio</a></h2>
-    
+         <header class="header-fixo">
+        <div id="logo">
+        <img src="imagens/logo.png" class="logo"  alt="logo-marca">
     </div>
+
+    <!-- menu principal desktop -->
+    <nav class="menu-superior-direito">
+        <ul class="menu-lista">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="aovivo.html">Culto Online</a></li>
+            <li><a href="downloads.html">Downloads</a></li>
+            <li><a href="#">Ministérios</a></li>
+            <li><a href="sobrenos.html">Sobre nós</a></li>
+        </ul>
+    </nav>
+
+     </header>
+
+     <!-- Menu Secundário (inicialmente escondido) -->
+<header class="header-secundario">
+    <div id="logo-secundaria">
+        <img src="imagens/logo.png" class="logo-secundaria" alt="logo-marca">
+    </div>
+    <nav class="menu-secundario">
+        <ul class="menu-lista">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="aovivo.html">Culto Online</a></li>
+            <li><a href="downloads.html">Downloads</a></li>
+            <li><a href="#">Ministérios</a></li>
+            <li><a href="sobrenos.html">Sobre nós</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Botão do menu sanduíche -->
+<button class="menu-toggle" aria-label="Abrir menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+
+<!-- Menu mobile -->
+<div class="menu-mobile">
+    <ul class="menu-lista">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="aovivo.html">Culto Online</a></li>
+        <li><a href="downloads.html">Downloads</a></li>
+        <li><a href="#">Ministérios</a></li>
+        <li><a href="sobrenos.html">Sobre nós</a></li>
+    </ul>
+</div>
+
+<!-- Overlay do menu -->
+<div class="menu-overlay"></div>
+   
+    <main>
+       
+<section class="topo">
+
+</section>
     </header>
     <!-- Conteúdo Principal -->
     <main class="downloads-container">
@@ -328,6 +383,7 @@
             </div>
         </div>
     </footer>
+    <script src="scrip.js"></script>
     
 </body>
 </html>

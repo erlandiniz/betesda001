@@ -1289,11 +1289,14 @@ main {
     opacity: 0.5;
     cursor: not-allowed;
 }
+
+
 /* ============ ESTILOS DA PÁGINA SOBRE NÓS ============ */
 
-
-
-/* ============ ESTILOS DA PÁGINA SOBRE NÓS ============ */
+section.topo{
+    background-color: #154919;
+    padding-top: 9vw;
+}
 section {
     padding-top: 5vh;
     line-height: 2em;
