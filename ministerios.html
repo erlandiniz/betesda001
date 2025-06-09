@@ -1,11 +1,206 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ministerios</title>
+    <title>Ministérios - Congregação Betesda</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    
+
+    <header class="header-fixo">
+        <div id="logo">
+        <img src="imagens/logo.png" class="logo"  alt="logo-marca">
+    </div>
+
+     <!-- menu principal desktop -->
+    <nav class="menu-superior-direito">
+        <ul class="menu-lista">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="aovivo.html">Culto Online</a></li>
+            <li><a href="downloads.html">Downloads</a></li>
+            <li><a href="ministerios.html">Ministérios</a></li>
+            <li><a href="sobrenos.html">Sobre nós</a></li>
+        </ul>
+    </nav>
+
+     </header>
+
+     <!-- Menu Secundário (inicialmente escondido) -->
+<header class="header-secundario">
+    <div id="logo-secundaria">
+        <img src="imagens/logo.png" class="logo-secundaria" alt="logo-marca">
+    </div>
+    <nav class="menu-secundario">
+        <ul class="menu-lista">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="aovivo.html">Culto Online</a></li>
+            <li><a href="downloads.html">Downloads</a></li>
+            <li><a href="ministerios.html">Ministérios</a></li>
+            <li><a href="sobrenos.html">Sobre nós</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Botão do menu sanduíche -->
+<button class="menu-toggle" aria-label="Abrir menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+
+<!-- Menu mobile -->
+<div class="menu-mobile">
+    <ul class="menu-lista">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="aovivo.html">Culto Online</a></li>
+        <li><a href="downloads.html">Downloads</a></li>
+        <li><a href="#">Ministérios</a></li>
+        <li><a href="sobrenos.html">Sobre nós</a></li>
+    </ul>
+</div>
+
+<!-- Overlay do menu -->
+<div class="menu-overlay"></div>
+   
+    <main>
+       
+<section class="topo">
+
+</section>
+
+    <main class="conteudo-principal">
+        <section class="cabecalho-ministerios">
+            <h1>Nossos Ministérios</h1>
+            <p class="subtitulo">Servindo com propósito e amor</p>
+            <div class="decoracao-verde"></div>
+        </section>
+
+        <section class="lista-ministerios">
+            <div class="cartao-ministerio">
+                <div class="imagem-ministerio">
+                    <img src="louvores.jpg" alt="Ministério de Louvor">
+                    <div class="decoracao-cartao"></div>
+                </div>
+                <div class="detalhes-ministerio">
+                    <div class="icone-ministerio">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h2>Ministério de Louvor</h2>
+                    <p>Liderando a adoração e glorificando a Deus através da música.</p>
+                    <a href="#" class="botao-saiba-mais">
+                        Saiba Mais
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="cartao-ministerio">
+                <div class="imagem-ministerio">
+                    <img src="intercessao.jpg" alt="Ministério de Intercessão">
+                    <div class="decoracao-cartao"></div>
+                </div>
+                <div class="detalhes-ministerio">
+                    <div class="icone-ministerio">
+                        <i class="fas fa-praying-hands"></i>
+                    </div>
+                    <h2>Ministério de Intercessão</h2>
+                    <p>Grupo dedicado à oração e intercessão pelas necessidades da igreja.</p>
+                    <a href="#" class="botao-saiba-mais">
+                        Saiba Mais
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="cartao-ministerio">
+                <div class="imagem-ministerio">
+                    <img src="infantil.jpg" alt="Ministério Infantil">
+                    <div class="decoracao-cartao"></div>
+                </div>
+                <div class="detalhes-ministerio">
+                    <div class="icone-ministerio">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h2>Ministério Infantil</h2>
+                    <p>Ensino bíblico e atividades para crianças.</p>
+                    <a href="#" class="botao-saiba-mais">
+                        Saiba Mais
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="cartao-ministerio">
+                <div class="imagem-ministerio">
+                    <img src="jovens.jpg" alt="Ministério de Jovens">
+                    <div class="decoracao-cartao"></div>
+                </div>
+                <div class="detalhes-ministerio">
+                    <div class="icone-ministerio">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h2>Ministério de Jovens</h2>
+                    <p>Encontros, estudos e eventos para jovens e adolescentes.</p>
+                    <a href="#" class="botao-saiba-mais">
+                        Saiba Mais
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="cartao-ministerio">
+                <div class="imagem-ministerio">
+                    <img src="social.jpg" alt="Ação Social">
+                    <div class="decoracao-cartao"></div>
+                </div>
+                <div class="detalhes-ministerio">
+                    <div class="icone-ministerio">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h2>Ação Social</h2>
+                    <p>Projetos de assistência e apoio à comunidade.</p>
+                    <a href="#" class="botao-saiba-mais">
+                        Saiba Mais
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="cartao-ministerio">
+                <div class="imagem-ministerio">
+                    <img src="discipulado.jpg" alt="Discipulado">
+                    <div class="decoracao-cartao"></div>
+                </div>
+                <div class="detalhes-ministerio">
+                    <div class="icone-ministerio">
+                        <i class="fas fa-bible"></i>
+                    </div>
+                    <h2>Ministério de Discipulado</h2>
+                    <p>Formação de novos discípulos e estudos bíblicos.</p>
+                    <a href="#" class="botao-saiba-mais">
+                        Saiba Mais
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contato-participacao">
+            <div class="conteudo-contato">
+                <h2>Você foi chamado para servir</h2>
+                <p>Junte-se a um de nossos ministérios e faça parte dessa missão</p>
+                <a href="#" class="botao-contato">
+                    Quero Participar
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="imagem-contato">
+                <img src="servindo.jpg" alt="Pessoas servindo">
+            </div>
+        </section>
+    </main>
+    <script src="scrip.js"></script>
 </body>
 </html>

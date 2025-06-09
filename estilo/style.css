@@ -1290,6 +1290,205 @@ main {
     cursor: not-allowed;
 }
 
+/* ============ ESTILOS DA PÁGINA MINISTÉRIOS ============ */
+
+.conteudo-principal {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Cabeçalho */
+.cabecalho-ministerios {
+    text-align: center;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.cabecalho-ministerios h1 {
+    color: var(--black);
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+}
+
+.cabecalho-ministerios .subtitulo {
+    color: var(--primary-dark);
+    font-size: 1.3rem;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.decoracao-verde {
+    height: 4px;
+    width: 80px;
+    background: linear-gradient(90deg, var(--primary), var(--accent));
+    margin: 1.5rem auto;
+    border-radius: 2px;
+}
+
+/* Lista de Ministérios */
+.lista-ministerios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.cartao-ministerio {
+    background: var(--light);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.cartao-ministerio:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.imagem-ministerio {
+    position: relative;
+    height: 220px;
+    overflow: hidden;
+}
+
+.imagem-ministerio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.cartao-ministerio:hover .imagem-ministerio img {
+    transform: scale(1.05);
+}
+
+.decoracao-cartao {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, var(--primary), var(--accent));
+}
+
+.detalhes-ministerio {
+    padding: 2rem;
+    position: relative;
+}
+
+.icone-ministerio {
+    width: 60px;
+    height: 60px;
+    background-color: var(--accent-dark);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    color: var(--branco);
+    font-size: 1.5rem;
+    box-shadow: 0 5px 15px rgba(42, 127, 98, 0.3);
+}
+
+.detalhes-ministerio h2 {
+    color: var(--black);
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.detalhes-ministerio p {
+    color: var(--primary);
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+.botao-saiba-mais {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--accent-dark);
+    color: var(--branco);
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 2px solid var(--primary);
+}
+
+.botao-saiba-mais:hover {
+    background: transparent;
+    color: var(--primary-dark);
+    transform: translateX(5px);
+}
+
+/* Seção de Contato */
+.contato-participacao {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: var(--branco);
+    margin-top: 4rem;
+    box-shadow: 0 15px 40px rgba(42, 127, 98, 0.2);
+}
+
+.conteudo-contato {
+    padding: 3rem;
+    flex: 1;
+}
+
+.conteudo-contato h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.conteudo-contato p {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.botao-contato {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--branco);
+    color: var(--gray);
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid var(--branco);
+}
+
+.botao-contato:hover {
+    background: transparent;
+    color: var(--branco);
+    transform: translateX(5px);
+}
+
+.imagem-contato {
+    flex: 1;
+    height: 350px;
+}
+
+.imagem-contato img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 /* ============ ESTILOS DA PÁGINA SOBRE NÓS ============ */
 
