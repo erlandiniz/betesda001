@@ -744,12 +744,11 @@ iframe.video_pequeno4 {
 }
 
 
-/* ============ ESTILOS DA PÁGINA DE VIDEOS ============ */
+/* ============ ESTILOS DA PÁGINA DO CULTO AO VIVO ============ */
 .section-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
     flex-wrap: wrap;
     gap: 15px;
 }
@@ -760,6 +759,8 @@ iframe.video_pequeno4 {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-top: 3em;
+    margin-bottom: 2em;
 }
 
 .stream-meta {
@@ -1085,13 +1086,15 @@ main {
     max-width: 1200px;
     margin: 100px auto 50px;
     padding: 0 20px;
+    
+    
 }
 
 .hero-downloads {
     text-align: center;
     margin-bottom: 40px;
     padding: 30px 0;
-    color: white;
+    color: rgb(3, 3, 3);
 }
 
 .hero-downloads h1 {
@@ -1126,7 +1129,7 @@ main {
 
 #search-btn {
     background-color: #49c453;
-    color: white;
+    color: rgb(177, 173, 173);
     border: none;
     padding: 0 25px;
     cursor: pointer;
@@ -1176,7 +1179,7 @@ main {
 }
 
 .download-card {
-    background: white;
+    background: rgb(175, 175, 175);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
